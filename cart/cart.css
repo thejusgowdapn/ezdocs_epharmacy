@@ -1,0 +1,16 @@
+#tit{
+    border-bottom: 50px;
+}
+
+h1{
+    margin-bottom: 60px;
+}
+
+.border{
+    border-style: double;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+}
+

@@ -1,0 +1,44 @@
+
+
+
+
+/* lodaer */
+.loader{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+}
+
+.loader > span{
+display: inline-block;
+border-radius: 50%;
+background-color: purple;
+width: 0;
+height: 0;
+background-color: 50%;
+margin: 0 8px;
+transform: translate3d(0);
+animation: bounce 0.6s infinite alternate; 
+
+
+}
+
+.loader > span:nth-child(2){
+background-color: palevioletred;
+animation-delay: 0.2s;
+}
+
+.loader > span:nth-child(3){
+    background-color: purple;
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    to{
+        width: 16px;
+        height: 16px;
+        transform: translate3d(0,-16px,0);
+    }
+    
+}
